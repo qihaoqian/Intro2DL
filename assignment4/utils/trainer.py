@@ -51,11 +51,11 @@ class Trainer(object):
                 # self.logs.append(current_log)
                 epoch_loss.append(loss)
 
-            # print("Epoch Average Loss: {:3f}".format(np.mean(epoch_loss)))
+            print("Epoch Average Loss: {:3f}".format(np.mean(epoch_loss)))
             training_loss.append(np.mean(epoch_loss))
 
             if epoch % self.validate_interval == 0:
                 eval_accuracy = self.validate()
                 eval_accuracies.append(eval_accuracy)
-                # print("Validate Acc: {:.3f}".format(eval_accuracy))
+                print("Validate Acc: {:.3f}".format(eval_accuracy))
         return training_loss, eval_accuracies
