@@ -3,3 +3,4 @@ datasets/
 *pyc
 layers/__pycache__
 utils/__pycache__
+classification_nn.pdf
