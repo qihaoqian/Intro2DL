@@ -1,8 +1,8 @@
-# ECE 285: Introduction to Deep Learning
+# Introduction to Deep Learning
 
-Course assignments for **ECE 285 — Introduction to Deep Learning** at UC San Diego.
+A collection of projects covering core deep learning topics, from classical machine learning algorithms to modern neural network architectures.
 
-## Assignments
+## Projects
 
 | # | Directory | Topic | Key Concepts |
 |---|-----------|-------|--------------|
@@ -17,27 +17,23 @@ Course assignments for **ECE 285 — Introduction to Deep Learning** at UC San D
 
 ```bash
 # Create a conda environment (optional)
-conda create -n ece285 python=3.9.5
-conda activate ece285
+conda create -n intro2dl python=3.9.5
+conda activate intro2dl
 
-# Install dependencies (per assignment)
-pip install -r <assignment_dir>/requirements.txt
+# Install dependencies (per project)
+pip install -r <project_dir>/requirements.txt
 ```
 
-Some assignments require downloading datasets before running:
+Some projects require downloading datasets before running:
 
 ```bash
-# For assignments with get_datasets.py
+# For projects with get_datasets.py
 python get_datasets.py
 
-# For assignment 6
+# For project 6
 bash get_dataset.sh
 ```
 
 ## Usage
 
-Each assignment is self-contained in its own directory with Jupyter notebooks as the main entry point. Open the `.ipynb` files and follow the instructions inside.
-
-## License
-
-This repository is for educational purposes only. Assignment skeletons are provided by the ECE 285 teaching staff at UCSD.
+Each project is self-contained in its own directory with Jupyter notebooks as the main entry point. Open the `.ipynb` files and follow the instructions inside.
