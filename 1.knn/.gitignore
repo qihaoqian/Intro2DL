@@ -1,0 +1,5 @@
+*pyc
+layers/__pycache__
+utils/__pycache__
+layers.zip
+datasets/
